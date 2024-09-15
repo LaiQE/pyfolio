@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup
 
-import versioneer
+# import versioneer
 
 DISTNAME = 'pyfolio'
 DESCRIPTION = "pyfolio is a Python library for performance"
@@ -63,8 +63,9 @@ extras_reqs = {
 if __name__ == "__main__":
     setup(
         name=DISTNAME,
-        cmdclass=versioneer.get_cmdclass(),
-        version=versioneer.get_version(),
+        # cmdclass=versioneer.get_cmdclass(),
+        # version=versioneer.get_version(),
+        version="0.9.2",
         maintainer=MAINTAINER,
         maintainer_email=MAINTAINER_EMAIL,
         description=DESCRIPTION,
